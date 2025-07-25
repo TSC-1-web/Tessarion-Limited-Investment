@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tessarion Limited | Investment Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tessarion Limited Investments</h1>
+    <nav>
+      <ul>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#roi">ROI Calculator</a></li>
+        <li><a href="#signup">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Accelerate your future with Tessarion-powered investments</h2>
+    <p>Invest in cutting‑edge innovation and grow with real-time insights.</p>
+    <a href="#signup" class="cta">Start Investing</a>
+  </section>
+
+  <section id="plans" class="plans">
+    <h3>Investment Plans</h3>
+    <div class="plan-grid">
+      <div class="plan">
+        <h4>Starter</h4>
+        <p>$500 – $1,999</p>
+        <p>Return: 5% Weekly</p>
+      </div>
+      <div class="plan">
+        <h4>Pro</h4>
+        <p>$2,000 – $9,999</p>
+        <p>Return: 7% Weekly</p>
+      </div>
+      <div class="plan">
+        <h4>Elite</h4>
+        <p>$10,000+</p>
+        <p>Return: 10% Weekly</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="roi" class="calculator">
+    <h3>ROI Calculator</h3>
+    <input type="number" id="investment" placeholder="Enter amount (USD)" />
+    <button onclick="calculateROI()">Calculate</button>
+    <p id="result"></p>
+  </section>
+
+  <section id="signup" class="signup">
+    <h3>Create Your Tessarion Account</h3>
+    <form>
+      <input type="email" placeholder="Email Address" required />
+      <input type="password" placeholder="Create Password" required />
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tessarion Limited. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
